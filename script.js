@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,14 +10,14 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "You are My Soniya", filePath: "songs/1.mp3", coverPath: "covers/cover-image1.jpg"},
-    {songName: "Senorita-Camila Cabello", filePath: "songs/2.mp3", coverPath: "covers/cover-image2.jpg"},
-    {songName: "Evermore-Taylor swift", filePath: "songs/3.mp3", coverPath: "covers/cover-image3.jpg"},
-    {songName: "Arcade-Druncan Lawren", filePath: "songs/4.mp3", coverPath: "covers/cover-image4.jpg"},
-    {songName: "Lovely-Billie Eilish", filePath: "songs/5.mp3", coverPath: "covers/cover-image5.jpg"},
-    {songName: "Hope-Xxxtentacion", filePath: "songs/2.mp3", coverPath: "covers/cover-image6.jpg"},
-    {songName: "Dil Bechara-Title Song", filePath: "songs/2.mp3", coverPath: "covers/cover-image7.jpg"},
-    {songName: "Taare Gin-Dil Bechara", filePath: "songs/2.mp3", coverPath: "covers/cover-image8.jpg"},
+    {songName: "You are My Soniya", filePath: "1.mp3", coverPath: "cover-image1.jpg"},
+    {songName: "Senorita-Camila Cabello", filePath: "2.mp3", coverPath: "cover-image2.jpg"},
+    {songName: "Evermore-Taylor swift", filePath: "3.mp3", coverPath: "cover-image3.jpg"},
+    {songName: "Arcade-Druncan Lawren", filePath: "4.mp3", coverPath: "cover-image4.jpg"},
+    {songName: "Lovely-Billie Eilish", filePath: "5.mp3", coverPath: "cover-image5.jpg"},
+    {songName: "Hope-Xxxtentacion", filePath: "6.mp3", coverPath: "cover-image6.jpg"},
+    {songName: "Dil Bechara-Title Song", filePath: "7.mp3", coverPath: "cover-image7.jpg"},
+    {songName: "Taare Gin-Dil Bechara", filePath: "8.mp3", coverPath: "cover-image8.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
